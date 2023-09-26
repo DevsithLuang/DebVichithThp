@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #555;
+}
+/* Partie Header */
+nav {
+    display: flex;
+    justify-content: end;
+    padding: 20px 10px;
+    height: 60px;
+}
+
+.logo  
+    {width: 300px;
+        position: absolute;
+        top: 200px;
+    }
+
+ul
+    {display: flex;
+list-style: none;
+align-items: center;
+}
+
+.button {background-color: #1b63c1;
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:#ddd;}
+
+li {text-align: center;
+padding: 14px 12px;}
+
+a { text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+.menu-bg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.menu-bg:hover{
+    background-color: rgba(237, 237, 237, 0.8);
+    cursor: pointer;
+}
+
+.menu-button{width: 40px;}
+
+/* Fin de la partie header*/
+
+/* Début de la partie section */
+
+.main{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {width: 580px;
+    height: 45px;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    border-radius: 45px;
+    border: 1px solid #d3d3d3;}
+
+input:hover {box-shadow:  -1px 7px 29px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 7px 29px -7px rgba(0,0,0,0.75);
+    box-shadow: -1px 7px 29px -7px rgba(0,0,0,0.75);}
+
+    input:focus {outline: none}
+
+    
+.glass{width: 20px;
+    position: absolute;
+    top: 340px;
+    right: 955px;
+    }
+
+.mic{width: 20px;
+    position: absolute;
+    top: 330px;
+    left: 900px;
+   }
+
+.lens {width: 30px; 
+    position: absolute;
+    top: 330px;
+    left: 950px;
+}
+button {width: 200px; 
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 90px;
+    justify-content: center;
+    
+    gap: 15px;
+    
+    }
+
+button {border: 1px solid transparent;
+    padding: 8px;
+background-color: #f8f9fa;
+border-radius: 5px;}
+
+button:hover {border: 1px solid #eee;
+    box-shadow: 0 0 2px 1px rgba(189, 189, 189, 0.5)
+    ; cursor: pointer;
+;}
+
+/* Fin de la partie section */
+
+/* Début de la partie footer */
+
+footer {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.panel {border-bottom: 1px solid #ddd;}
+
+.panel2 {
+height: 50px;
+display: flex;
+justify-content: space-between;
+padding: 15px;
+}
+
+p{color: gray;
+padding-left: 13px; }
+
+
+ 
+
+
+
